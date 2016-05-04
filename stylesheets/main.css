@@ -1,0 +1,179 @@
+body{
+  background-color:#FFFFFF
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-family: 'SCRIPT1 Script Casual', 'Fira Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #23C6B6;
+}
+
+
+header h3{
+  font-family:  'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #23C6B6;
+}
+nav ul {
+  list-style-type: none;
+
+}
+
+nav ul li{
+  padding-right: 2em;
+  display: inline;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+}
+
+
+#projects h1{
+  text-align: center;
+  font-family:'Fira Sans', sans-serif;
+}
+#projects ul{
+  list-style-type: none;
+
+}
+
+.project figure{
+  position: relative;
+  background-color:#000;
+}
+
+.project{
+  display: block;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+  width:50%;
+  float:left;
+}
+
+.project img{
+  display: block;
+  max-width: 100%;
+  position: relative;
+}
+
+.project figcaption{
+  position: absolute;
+  top: 25%;
+  left:0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+}
+
+.project figure:hover img {
+    opacity: 0.25;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+.project figure:hover figcaption{
+    opacity: 1;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+
+.about {
+  clear:all;
+  position: fixed;
+  font-family: 'Fira Sans', sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.about h4{
+  font-size: 20px;
+}
+
+.about:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.about > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #C3D7E2;
+  z-index: 1;
+}
+
+
+.contact {
+  clear:all;
+  position: fixed;
+  font-family: 'Fira Sans', sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.contact h4{
+  font-size: 20px;
+  text-align: center;
+  margin-left:2em;
+}
+
+.contact:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.contact > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #C3D7E2;
+}
+
+.contact ul{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.contact ul li{
+  padding-right: 2em;
+  display: inline;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+}
+.contact ul img{
+  width: 24%;
+}
