@@ -13,6 +13,10 @@ header h1{
   color: #23C6B6;
 }
 
+header a{
+  text-decoration: none;
+}
+
 
 header h3{
   font-family:  'Fira Sans', sans-serif;
@@ -44,7 +48,8 @@ nav ul li{
 
 .project figure{
   position: relative;
-  background-color:#000;
+  background-color:#000000;
+  border: 10px groove #5684D7;
 }
 
 .project{
@@ -63,7 +68,6 @@ nav ul li{
   max-width: 100%;
   position: relative;
 }
-
 .project figcaption{
   position: absolute;
   top: 25%;
@@ -121,7 +125,7 @@ nav ul li{
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: #C3D7E2;
+  background: #5684D7;
   z-index: 1;
 }
 
@@ -160,7 +164,7 @@ nav ul li{
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: #C3D7E2;
+  background: #5684D7;
 }
 
 .contact ul{
